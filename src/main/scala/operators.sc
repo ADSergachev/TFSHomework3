@@ -2,7 +2,7 @@ val str = "good"
 if (str == "bad") {
   print("everything is not so good")
 } else if (str == "good") {
-  print("much better\n")
+  print("much better")
 } else {
   print("that's it. Perfect")
 }

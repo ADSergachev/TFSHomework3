@@ -2,7 +2,7 @@ import org.scalatest.FlatSpec
 
 class PermutationsSpec extends FlatSpec {
 
-  val testedFunc: List[Int] => List[List[Int]] = ???
+  val testedFunc: List[Int] => List[List[Int]] = permList
 
   def compare(actual: List[List[Int]], expected: List[Int]): Boolean = {
     actual.diff(expected.permutations.toList).isEmpty && expected.permutations.toList.diff(actual).isEmpty
